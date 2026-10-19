@@ -1,0 +1,3 @@
+# LocalMind Agent Kickoff Prompt
+
+Read `MASTER_IMPLEMENTATION_GUIDE.md` fully and treat it as the implementation contract. Begin with Milestone M0: audit the repository and produce a feature inventory, architecture gap analysis, security risks, dependency list, and phased execution plan. Do not immediately replace existing code. After the audit, implement M1 as a tested vertical slice. Keep all UI backed by real services or truthful empty states. Follow Clean Architecture, PySide6/QML MVVM, ONNX local intent detection, SQLite repositories, cross-platform adapters, and permission-controlled action execution. Require explicit approval before high-risk or destructive actions. Run tests, report results, and document changes at each milestone.

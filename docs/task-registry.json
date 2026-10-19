@@ -1,0 +1,962 @@
+[
+  {
+    "task_id": "F01",
+    "name": "Folder overview",
+    "description": "Folder overview",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F02",
+    "name": "File and directory counts",
+    "description": "File and directory counts",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F03",
+    "name": "Logical folder size",
+    "description": "Logical folder size",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F04",
+    "name": "File type breakdown",
+    "description": "File type breakdown",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F05",
+    "name": "Largest files",
+    "description": "Largest files",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F06",
+    "name": "Recently modified files",
+    "description": "Recently modified files",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F07",
+    "name": "Empty directories",
+    "description": "Empty directories",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F11",
+    "name": "Subfolder space usage",
+    "description": "Subfolder space usage",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F13",
+    "name": "Folder summary",
+    "description": "Folder summary",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F14",
+    "name": "Find files by extension",
+    "description": "Find files by extension",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "F15",
+    "name": "Scan exclusions and inaccessible entries",
+    "description": "Scan exclusions and inaccessible entries",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "C15",
+    "name": "Find matching filenames",
+    "description": "Find matching filenames",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "folder"
+  },
+  {
+    "task_id": "P01",
+    "name": "Project languages",
+    "description": "Project languages",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "P02",
+    "name": "Framework evidence",
+    "description": "Framework evidence",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "P03",
+    "name": "Project structure",
+    "description": "Project structure",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "P04",
+    "name": "README facts and excerpt",
+    "description": "README facts and excerpt",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "P05",
+    "name": "Declared entry points",
+    "description": "Declared entry points",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "P06",
+    "name": "Declared dependencies",
+    "description": "Declared dependencies",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "P07",
+    "name": "Test framework evidence",
+    "description": "Test framework evidence",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "P15",
+    "name": "Project overview",
+    "description": "Project overview",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "project"
+  },
+  {
+    "task_id": "C01",
+    "name": "Text preview",
+    "description": "Text preview",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "C02",
+    "name": "Markdown preview",
+    "description": "Markdown preview",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "C03",
+    "name": "JSON inspection",
+    "description": "JSON inspection",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "C04",
+    "name": "CSV columns and sample",
+    "description": "CSV columns and sample",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "C09",
+    "name": "Word and line counts",
+    "description": "Word and line counts",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "C10",
+    "name": "Text encoding",
+    "description": "Text encoding",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "C13",
+    "name": "Markdown headings",
+    "description": "Markdown headings",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "C14",
+    "name": "File metadata",
+    "description": "File metadata",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "preview"
+  },
+  {
+    "task_id": "FM01",
+    "name": "Create directory",
+    "description": "Create directory",
+    "risk": "write",
+    "requires_confirmation": true,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "files"
+  },
+  {
+    "task_id": "FM02",
+    "name": "Rename file",
+    "description": "Rename file",
+    "risk": "write",
+    "requires_confirmation": true,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "files"
+  },
+  {
+    "task_id": "FM03",
+    "name": "Move file",
+    "description": "Move file",
+    "risk": "write",
+    "requires_confirmation": true,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "files"
+  },
+  {
+    "task_id": "FM04",
+    "name": "Copy file",
+    "description": "Copy file",
+    "risk": "write",
+    "requires_confirmation": true,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "files"
+  },
+  {
+    "task_id": "FM05",
+    "name": "Organize by type",
+    "description": "Organize by type",
+    "risk": "write",
+    "requires_confirmation": true,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "files"
+  },
+  {
+    "task_id": "FM13",
+    "name": "Create text file",
+    "description": "Create text file",
+    "risk": "write",
+    "requires_confirmation": true,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "files"
+  },
+  {
+    "task_id": "FM15",
+    "name": "Preview organization changes",
+    "description": "Preview organization changes",
+    "risk": "write",
+    "requires_confirmation": true,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "files"
+  },
+  {
+    "task_id": "A01",
+    "name": "Open known installed app",
+    "description": "Open known installed app",
+    "risk": "low",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "desktop"
+  },
+  {
+    "task_id": "A02",
+    "name": "Open safe local file",
+    "description": "Open safe local file",
+    "risk": "low",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "desktop"
+  },
+  {
+    "task_id": "A03",
+    "name": "Open folder",
+    "description": "Open folder",
+    "risk": "low",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "desktop"
+  },
+  {
+    "task_id": "A04",
+    "name": "Open HTTP website",
+    "description": "Open HTTP website",
+    "risk": "low",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "desktop"
+  },
+  {
+    "task_id": "S01",
+    "name": "CPU usage",
+    "description": "CPU usage",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S02",
+    "name": "Memory usage",
+    "description": "Memory usage",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S03",
+    "name": "Disk usage",
+    "description": "Disk usage",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S04",
+    "name": "System information",
+    "description": "System information",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S05",
+    "name": "Operating system",
+    "description": "Operating system",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S06",
+    "name": "Top memory processes",
+    "description": "Top memory processes",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S08",
+    "name": "Battery status",
+    "description": "Battery status",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S11",
+    "name": "System uptime",
+    "description": "System uptime",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  },
+  {
+    "task_id": "S12",
+    "name": "Refresh system metrics",
+    "description": "Refresh system metrics",
+    "risk": "read_only",
+    "requires_confirmation": false,
+    "parameters": [
+      "scope",
+      "text",
+      "target",
+      "extension",
+      "query",
+      "source",
+      "destination",
+      "content",
+      "limit",
+      "browser"
+    ],
+    "handler": "system"
+  }
+]

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localmind"
+version = "0.1.0"
+description = "A local-first desktop workspace assistant prototype"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "PySide6>=6.6",
+    "onnxruntime>=1.20",
+    "tokenizers>=0.21",
+    "numpy>=2.0",
+    "Pillow>=11.0",
+    "filelock>=3.16",
+    "psutil>=6.1",
+]
+
+[project.scripts]
+localmind = "localmind.__main__:main"
+
+[project.optional-dependencies]
+dev = ["ruff>=0.9", "pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint.per-file-ignores]
+# Qt's platform must be selected before importing any Qt modules.
+"tests/test_desktop_integration.py" = ["E402"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+localmind = ["presentation/qml/*.qml", "presentation/qml/components/*.qml", "presentation/qml/pages/*.qml"]
+
